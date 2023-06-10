@@ -1,6 +1,13 @@
 # 3d_visualization_tools
 This repo contain a couple of visualization tools based on Ployscope (Interactive UIs) and Open3D (File IO and Processing).
 
+requirments:
+- tqdm
+- open3d
+- ployscope
+- numpy
+
+Overview:
 - visualize point cloud (.pts format)
 - visualize mesh (.obj format)
 - visualize semantic annotation ([S3DIS](http://buildingparser.stanford.edu/dataset.html) Dataset format)
